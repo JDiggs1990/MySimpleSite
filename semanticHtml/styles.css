@@ -2,21 +2,43 @@ h1{
     
     color: red;
     position: relative;
-    /*position: static;
-    left: 100px;
-    top: 100px;*/
+    /*position: static;*/
+    left: 0px;
+    top: 0px;
     
 }
 
 .banner{
     position: relative;
+    background-color: blue;     /* Background added to BLUE HARVEST Banner at top of page, below header*/
 }
 
-.banner img{max-width: 100%}
+.banner img{
+    max-width: 100%;            /* Sets width to same as device-width, screen width? */
+
+
+}
 
 .banner .welcome{
     position: absolute;
-    left: 0px;
+    left: 250px;
     top: 30%;
+  }
+
+  .article{
+    position:relative;
+    background: black;
+  }
+
+  .Lorem{
+    color: red;
+
+  }
+
+  .footer{
+
+    position: sticky;           /* Will create a sticky footer with "Top" etc. */
+    background: grey;
+    z-index: 1; 
   }
 
