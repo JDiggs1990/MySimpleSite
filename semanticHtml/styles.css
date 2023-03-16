@@ -1,22 +1,22 @@
 h1{
-    /*
+    
     color: red;
-    css position: static;
     position: relative;
+    /*position: static;
     left: 100px;
-    top: 100px;
-    */
+    top: 100px;*/
+    
 }
 
-/*.banner{
+.banner{
     position: relative;
-}*/
+}
 
-/*.banner img{max-width: 100%}*/
+.banner img{max-width: 100%}
 
 .banner .welcome{
     position: absolute;
     left: 0px;
-    top: 30%
+    top: 30%;
   }
 
